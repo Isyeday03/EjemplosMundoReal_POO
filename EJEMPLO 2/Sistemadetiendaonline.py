@@ -227,3 +227,14 @@ class ProductoRopa(Producto):
 
     def __str__(self) -> str:
         return f"{super().__str__()} - {self._talla} - {self._color} - {self._material}"
+
+if __name__ == "__main__":
+    print("Bienvenido al sistema de tienda online")
+    # Crear productos de ejemplo
+    prod1 = ProductoElectronico("Smartphone", 1200.0, 10, "Samsung", 24)
+    prod2 = ProductoRopa("Camiseta", 25.0, 50, "M", "Azul", "Algodón")
+    print(prod1)
+    print(prod2)
+    # Aplicar descuento y mostrar resultado
+    prod1.aplicar_descuento(10)
+    print(f"Precio con descuento: {prod1.precio}")

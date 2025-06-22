@@ -828,3 +828,11 @@ class Biblioteca:
     Demuestra COMPOSICIÓN al estar compuesta por múltiples objetos
     (libros, usuarios) y coordinar todas las operaciones del sistema.
     """
+
+if __name__ == "__main__":
+    print("Bienvenido al sistema de biblioteca")
+    # Aquí puedes crear objetos y probar funcionalidades
+    # Por ejemplo:
+    libro = LibroFisico("Cien años de soledad", "Gabriel García Márquez", "1234567890", 1967, "A1")
+    estudiante = Estudiante("Juan Pérez", "2021001", "juan@correo.com", "Ingeniería", 3)
+    estudiante.prestar_libro(libro)
