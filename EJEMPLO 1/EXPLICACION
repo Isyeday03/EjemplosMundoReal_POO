@@ -1,0 +1,24 @@
+SISTEMA DE GESTIÓN DE BIBLIOTECA - PROGRAMACIÓN ORIENTADA A OBJETOS
+===================================================================
+
+FINALIDAD DEL EJEMPLO DEL MUNDO REAL:
+------------------------------------
+Este programa modela un sistema completo de gestión de biblioteca que demuestra
+todos los conceptos fundamentales de la Programación Orientada a Objetos (POO):
+
+1. ENCAPSULACIÓN: Protección de datos mediante atributos privados y métodos públicos
+2. HERENCIA: Clases especializadas que heredan de clases base
+3. POLIMORFISMO: Métodos que se comportan diferente según el tipo de objeto
+4. ABSTRACCIÓN: Clases abstractas que definen interfaces comunes
+
+SITUACIÓN DEL MUNDO REAL MODELADA:
+---------------------------------
+- Sistema de biblioteca universitaria con diferentes tipos de usuarios
+- Catálogo de libros físicos y digitales con características específicas
+- Gestión de préstamos con reglas y fechas límite
+- Sistema de multas por retraso en devoluciones
+- Reportes y estadísticas de uso
+
+AUTOR: Edwin Armijos
+FECHA: Junio 2025
+MATERIA: Programación Orientada a Objetos

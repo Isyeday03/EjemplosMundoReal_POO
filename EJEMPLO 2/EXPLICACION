@@ -1,0 +1,20 @@
+SISTEMA DE TIENDA ONLINE - EJEMPLO COMPLEMENTARIO
+================================================
+
+FINALIDAD DEL EJEMPLO:
+Este segundo ejemplo complementa el sistema de biblioteca mostrando conceptos adicionales 
+de POO aplicados a una tienda online del mundo real:
+
+1. COMPOSICIÓN Y AGREGACIÓN: Carrito compuesto por productos, Pedidos con múltiples items
+2. SOBRECARGA DE OPERADORES: Operaciones matemáticas entre objetos
+3. MÉTODOS ESTÁTICOS Y DE CLASE: Funcionalidades a nivel de clase
+4. PROPIEDADES CALCULADAS: Atributos que se calculan dinámicamente
+5. INTERFACES (PROTOCOLOS): Definición de contratos comunes
+
+CONCEPTOS DEL MUNDO REAL MODELADOS:
+- Catálogo de productos con categorías y precios
+- Sistema de carrito de compras con cálculos automáticos
+- Gestión de inventario con stock y reposición
+- Procesamiento de pedidos con estados y seguimiento
+- Sistema de descuentos y promociones
+- Métodos de pago y facturación
